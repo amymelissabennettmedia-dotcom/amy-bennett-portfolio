@@ -13,7 +13,7 @@
     --color-text: #191A1E;          /* Primary text */
     --color-text-light: #4B4F56;    /* Subtext, hover elements */
     --color-highlight: #ef862f;     /* CTA, buttons, hover, link highlights */
-    --color-border: #f9a661;          /* Optional warm glow or hover edge */
+    --color-border: #f9a661;          /* warm glow or hover edge */
     }
 
 
@@ -740,14 +740,21 @@ footer {
     color: var(--color-bg);
 }
 
-.linkedin-btn {
+.social-btn {
     position: relative;
     width: 35px !important;
     height: 35px;
     z-index: 20;
-    background: url("../img/ico-linkedin-light.svg") no-repeat;
     transition: all .25s ease-in-out;
     margin-right: 30px;
+}
+
+.linkedin-btn {
+    background: url("../img/ico-linkedin-light.svg") no-repeat;
+}
+
+.github-btn {
+    background: url("../img/github.svg") no-repeat;
 }
 
 #copyright {
