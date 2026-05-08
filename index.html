@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+
+     <!--Site metadata and SEO-->
+     <title>Amy Melissa Bennett</title>
+     <meta name="description" content="I design systems that translate complexity into clarity.">
+
+     <!--Responsive design call-->
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <!--
+          Portfolio site developed from a course starter template.
+          Structure, content hierarchy, responsive behavior, visual system,
+          interaction systems, and project presentation have been extensively customized and refined.
+     -->
+
+     <!--Stylesheets-->
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+     <!--Favicon-->
+     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+     <!-- Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+     <!--Header and Navigation-->
+     <header>
+          <a href="index.html#top" onclick="closeMobileNav()">
+               <h1>Amy Melissa Bennett</h1>
+          </a>
+     </header>
+
+     <nav id="nav">
+          <a href="index.html#section-1" onclick="closeMobileNav()">Meet Amy</a>
+          <a href="index.html#section-2" onclick="closeMobileNav()">Projects</a>
+          <a href="index.html#section-4" onclick="closeMobileNav()">Contact</a>
+          <a href="documents/bennett-resume.pdf" target="_blank" rel="noopener">Resumé</a>
+
+     </nav>
+
+     <!--Mobile menu-->
+     <input type="checkbox" id="active" class="mobile-nav-input" aria-hidden="true">
+     <div class="menu cross menu--1" aria-hidden="true">
+          <label>
+               <input id="checkbox" type="checkbox" onclick="toggleMobileNav()" class="mobile-nav-input">
+               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="30" />
+                    <path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
+                    <path class="line--2" d="M0 50h70" />
+                    <path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
+               </svg>
+          </label>
+     </div>
+
+     <!--Main-->
+     <main>
+
+          <!--Hero Section-->
+          <section id="top" class="full-height hero">
+               <div class="hero-copy">
+                    <h2>I design systems that translate complexity into clarity.</h2>
+                    <p>Working across UX and system design to build cohesive experiences from concept through implementation, including structured AI workflows.</p>
+               </div>
+          </section>
+
+          <!--Meet Amy Section-->
+          <section id="section-1">
+               <h2 class="col-80 margin-auto">Meet Amy</h2>
+               <article class="col-40 col-left">
+                    <p>
+                         My work explores how people interact with complex systems — especially where technology, behavior, and adaptive workflows intersect.
+                    </p>
+                    <p>
+                         I’m interested in how structure influences clarity: how interaction patterns emerge, where friction develops, and how systems can be shaped to feel more intuitive, responsive, and human.
+                    </p>
+                    <p>
+                         I design across UX, interaction systems, behavioral workflows, and AI-supported environments, moving between conceptual architecture and implementation depending on what the system requires.
+                    </p>
+                    <p>
+                         Rather than approaching design as isolated screens or visual outputs, I treat it as an evolving relationship between people, context, communication, and behavior.
+                    </p>
+
+                    <a href="documents/bennett-resume.pdf" target="_blank" rel="noopener" class="primary-btn">Resumé</a>
+
+               </article>
+
+               <article class="col-30 col-right">
+                    <h4>What I Design</h4>
+                    <p>Interaction systems, behavioral workflows, adaptive user experiences, and human-centered AI environments designed for clarity, continuity, and real-world use.</p>
+               
+                    <h4>How I Work</h4>
+                    <p>Iterative, systems-oriented, and detail-focused. I refine through observation, pattern recognition, testing, and continuous behavioral adjustment.</p>
+               
+                    <h4>Tools & Systems</h4>
+                    <p>Figma, Adobe Creative Suite, HTML/CSS, working knowledge of JavaScript, GitHub, and AI-assisted design workflows.</p>
+               </article>
+               
+          </section>
+
+
+          <!--Projects Section-->
+          <section id="section-2">
+               <h2 class="col-80 margin-auto">Projects</h2>
+
+               <div class="grid-wrapper full-width">
+                    
+                    <a href="project-designing-ai.html">
+                         <article>
+                              <figure>
+                                   <img src="img/designing-ai-thumbnail.png" alt="Abstract network of connected nodes in blue-green tones with glowing yellow points">
+                              </figure>
+                              <div class="grid-item-text">
+                                   <h3>Designing Context-Aware Behavioral Architecture for Stateless AI Systems</h3>
+                                   <h5>Reconstructing continuity through context-specific interaction environments and behavioral conditioning.</h5>
+                              </div>
+                         </article>
+                    </a>
+                    
+                    <a href="project-scivite-v2.html">
+                         <article>
+                              <figure>
+                                   <img src="img/scivite-thumb.jpg" alt="WSU Vancouver Life Sciences tour project">
+                              </figure>
+                              <div class="grid-item-text">
+                                   <h3>SciVite</h3>
+                                   <h5>Translating institutional direction into a structured visual and interaction system for exploring WSU Vancouver’s Life Sciences Building.</h5>
+                              </div>
+                         </article>
+                    </a>
+
+                    <a href="project-aerostep.html">
+                         <article>
+                              <figure>
+                                   <img src="img/AeroStep-pop-up.jpeg" alt="an ai generated image of an Aerostep pop-up event, featuring shoe displays, design elements, and interactivity">
+                              </figure>
+                              <div class="grid-item-text">
+                                   <h3>Aerostep: A Sustainable Brand Experience System</h3>
+                                   <h5>Structuring physical, digital, and social touchpoints into a coordinated brand system.</h5>
+                              </div>
+                         </article>
+                    </a>
+
+                    <a href="project-treehouse-architect-v2.html">
+                         <article>
+                              <figure>
+                                   <img src="img/treehouse-architect-thumb.jpg" alt="Treehouse Architect app interface showing guided planning and estimate workflow">
+                              </figure>
+                              <div class="grid-item-text">
+                                   <h3>Treehouse Architect</h3>
+                                   <h5>Transforms environmental and client inputs into a guided decision system that generates a shareable PDF estimate for on-site treehouse planning.</h5>
+                              </div>
+                         </article>
+                    </a>
+                    
+                    <a href="project-smokin-oak-v2.html">
+                         <article>
+                              <figure>
+                                   <img src="img/smokin-oak-thumb.jpg" alt="The Smokin’ Oak Pit and Drinkery website">
+                              </figure>
+                              <div class="grid-item-text">
+                                   <h3>Digital Atmosphere for a Physical Brand</h3>
+                                   <h5>Carrying the restaurant’s warmth, identity, and atmosphere into digital space through interaction and visual design.</h5>
+                              </div>
+                         </article>
+                    </a>
+
+                    <a href="project-under-the-patch-v2.html">
+                         <article>
+                              <figure>
+                                   <img src="img/under-the-patch-thumb.jpg" alt="Illustrated underwater scene from Under the Patch animated environmental short">
+                              </figure>
+                                   <div class="grid-item-text">
+                                        <h3>Under the Patch</h3>
+                                        <h5>Environmental storytelling through symbolic animation, motion design, and emotionally driven visual systems.</h5>
+                                   </div>
+                         </article>
+                    </a>
+               </div>
+          </section>
+
+          <!--Contact Section-->
+          <section id="section-4">
+               <h2 class="col-80 margin-auto center-text">Contact</h2>
+               <article class="col-60 margin-auto center-text">          
+                    <a href="mailto:AmyMelissaBennett.media@gmail.com" class="primary-btn">Email</a>
+                    <a href="documents/bennett-resume.pdf" target="_blank" rel="noopener" class="primary-btn">Resumé</a>
+               </article>
+          </section>
+          
+
+
+     </main>
+
+
+     <!--Footer-->
+     <footer>
+          <a href="https://www.linkedin.com/in/amy-melissa-bennett-996837213/"
+               target="_blank"
+               rel="noopener"
+               aria-label="Visit Amy Melissa Bennett's LinkedIn profile"
+               class="linkedin-btn"></a>
+
+          <p id="copyright">© Amy Melissa Bennett 2026</p>
+     </footer>
+
+
+     <!--Scripts-->
+     <script src="js/main.js"></script>
+</body>
+
+</html>
